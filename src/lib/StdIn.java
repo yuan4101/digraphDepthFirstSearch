@@ -7,7 +7,7 @@
  *
  ******************************************************************************/
 
-package libs;
+package lib;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Locale;

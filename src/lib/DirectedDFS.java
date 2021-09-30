@@ -21,7 +21,7 @@
  *
  ******************************************************************************/
 
-package libs;
+package lib;
 
 /**
  *  The {@code DirectedDFS} class represents a data type for 

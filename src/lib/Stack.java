@@ -19,7 +19,7 @@
  *
  ******************************************************************************/
 
-package libs;
+package lib;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

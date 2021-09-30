@@ -27,7 +27,7 @@
  *  
  ******************************************************************************/
 
-package libs;
+package lib;
 import java.util.NoSuchElementException;
 
 /**
