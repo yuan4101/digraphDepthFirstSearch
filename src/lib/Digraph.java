@@ -274,10 +274,11 @@ public class Digraph {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
-        In in = new In(args[0]);
-        Digraph G = new Digraph(in);
-        StdOut.println(G);
-    }
+//    public static void main(String[] args) {
+//        In in = new In(args[0]);
+//        Digraph G = new Digraph(in);
+//        StdOut.println(G);
+//    }
+    
 
 }
