@@ -75,7 +75,8 @@ public class Digraph {
      * @param  V the number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
      */
-    public Digraph(int V) {
+    @SuppressWarnings("unchecked")
+	public Digraph(int V) {
         if (V < 0) throw new IllegalArgumentException("Number of vertices in a Digraph must be non-negative");
         this.V = V;
         this.E = 0;
@@ -98,7 +99,8 @@ public class Digraph {
      * @throws IllegalArgumentException if the number of vertices or edges is negative
      * @throws IllegalArgumentException if the input stream is in the wrong format
      */
-    public Digraph(In in) {
+    @SuppressWarnings("unchecked")
+	public Digraph(In in) {
         if (in == null) throw new IllegalArgumentException("argument is null");
         try {
             this.V = in.readInt();
@@ -127,7 +129,8 @@ public class Digraph {
      * @param  G the digraph to copy
      * @throws IllegalArgumentException if {@code G} is {@code null}
      */
-    public Digraph(Digraph G) {
+    @SuppressWarnings("unchecked")
+	public Digraph(Digraph G) {
         if (G == null) throw new IllegalArgumentException("argument is null");
 
         this.V = G.V();

@@ -120,7 +120,8 @@ public class DirectedDFS {
         if (vertices == null) {
             throw new IllegalArgumentException("argument is null");
         }
-        int V = marked.length;
+        @SuppressWarnings("unused")
+		int V = marked.length;
         int count = 0;
         for (Integer v : vertices) {
             count++;
